@@ -1,11 +1,11 @@
 <div class="container custom-container">
   <div class="col-md-12">
-    <h3 class="mb-3 text-center">Create Post</h3>
+    <h3 class="mb-3 text-center">Update Post</h3>
 
     <div class="form-group">
       <input
         type="text"
-        [(ngModel)]="postDetails.name"
+        [(ngModel)]="postData.name"
         class="form-control"
         placeholder="Name"
       />
@@ -14,7 +14,7 @@
     <div class="form-group">
       <input
         type="text"
-        [(ngModel)]="postDetails.email"
+        [(ngModel)]="postData.email"
         class="form-control"
         placeholder="Email"
       />
@@ -23,14 +23,15 @@
     <div class="form-group">
       <input
         type="text"
-        [(ngModel)]="postDetails.phone"
+        [(ngModel)]="postData.phone"
         class="form-control"
         placeholder="Phone"
       />
     </div>
+
     <div class="form-group">
-      <button class="btn btn-success btn-lg btn-block" (click)="addPost()">
-        Create Post
+      <button class="btn btn-success btn-lg btn-block" (click)="updatePost()">
+        Update Employee
       </button>
     </div>
   </div>

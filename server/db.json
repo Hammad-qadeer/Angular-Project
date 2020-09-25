@@ -1,0 +1,22 @@
+{
+  "posts": [
+    {
+      "id": 2,
+      "name": "a",
+      "email": "a",
+      "phone": "001"
+    },
+    {
+      "id": 3,
+      "name": "a",
+      "email": "a",
+      "phone": "001"
+    },
+    {
+      "name": "hammad",
+      "email": "hamad@gmail.com",
+      "phone": "005",
+      "id": 4
+    }
+  ]
+}
